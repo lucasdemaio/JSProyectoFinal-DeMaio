@@ -1,0 +1,8 @@
+[ 
+  { "id": 1, "pais": "Argentina", "ciudad": "Buenos Aires", "direccion": "Avenida Buenos Aires 641", "imagen":"../assets/buenosaires.jpeg", "telefono": 115627123 },
+  { "id": 2, "pais": "Argentina", "ciudad": "Cordoba", "direccion": "Luis Viale 324", "imagen":"../assets/cordoba.jpeg", "telefono": 1728391234  },
+  { "id": 3, "pais": "Argentina", "ciudad": "Mendoza", "direccion": "Av Monroe 1652", "imagen":"../assets/mendoza.jpeg", "telefono": 422931234  },
+  { "id": 4, "pais": "Colombia", "ciudad": "Bogota", "direccion": "Bogota 564", "imagen":"../assets/bogota.jpeg", "telefono": 42357733  },
+  { "id": 5, "pais": "Colombia", "ciudad": "Cali", "direccion": "Av Cali 229", "imagen":"../assets/cali.jpeg", "telefono": 776528854  },
+  { "id": 6, "pais": "Uruguay", "ciudad": "Montevideo", "direccion": "Calle Punta del Este 421", "imagen":"../assets/montevideo.jpeg", "telefono": 66563896  }
+]

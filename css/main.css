@@ -1,0 +1,229 @@
+#btn-carrito{
+    width: 80px;
+    height: 40px;
+    margin-right: 20px;
+    transition: all;  
+}
+
+
+#productos, #sucursales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 40px;
+    
+}
+
+#carrito{
+    display: none;
+    position:absolute;
+    top: 5%;
+    right: 5%;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    border-radius: 40px;
+    z-index: 1001;
+    border: 2px solid black ;
+}
+
+table, td, th {
+    border-radius: 5px;
+    text-align: center;
+}
+  
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+th {
+   height: 100px;
+}
+
+#fotoProductoCarrito{
+    width:90%; 
+    height: 70%;
+}
+
+.fuente{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.navbar-nav .titulo-menu{
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    margin: 0;
+    text-align: center;
+    
+}
+
+
+.container-login {
+    width: 700px;
+    /* display: inline-block; */
+    text-align: center;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+#btn__loguearse {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+#user_register input {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#user_login input {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+#btn-registro {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+#user_login {
+    border-bottom: solid 5px black;
+    margin-bottom: 50px;
+    column-gap: 40px;
+}
+
+.card {
+    text-align: center;
+ 
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-descripcion{
+    font-size: 12px;
+
+}
+
+
+#userLogin {
+    display: flex;
+    margin-right: 30px;
+}
+
+#boton-logout {
+    border-radius: 100px;
+    border-color: none;
+    color:white;
+    background-color: red;
+}
+
+#login {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#filtro {
+    background-color: rgb(196, 196, 196);
+    width: 320px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+#filtro-input p {
+    margin: 0;
+    color: rgb(74, 74, 74);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#filtros-varios {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+#filtro-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 570px;
+    margin-top: 10px;
+    background-color: rgb(213, 210, 210);
+    border-radius: 20px;
+    width: 350px;
+    height: 90px;
+    
+}
+
+#filter_input {
+    width: 250px;
+    margin: 0;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    color: lightgrey;
+}
+
+#filtro-ordenar {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+#btn-agregar-modificar{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 30px;    
+}
+
+#form-agregar {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;;
+}
