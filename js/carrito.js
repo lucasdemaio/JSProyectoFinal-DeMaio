@@ -17,8 +17,6 @@ const footCarrito = document.getElementById("totales")
 const btnCarrito = document.getElementById("btnCarrito")
 const carritoTable = document.getElementById("carrito")
 
-
-
 // Event listener para mostrar/ocultar el carrito al hacer clic en el botón
 btnCarrito.addEventListener("click", (event) => {    
     event.stopPropagation();
@@ -74,7 +72,7 @@ export const comprarProducto = (idProducto) => {
         text: `Ha agregado un ${nombre} mas en su carrito.`,
       });
     }
-  };
+};
 
 // Función para dibujar el contenido del carrito en la interfaz
 const dibujarCarrito = () => {
@@ -241,8 +239,7 @@ const Comprar = () => {
         icon: 'success',
         title: 'Compra realizada con éxito',
         text: 'Gracias por tu compra. ¡Disfruta de tus productos!',
-    });
-      
+    });      
     setTimeout(() => {
         // Limpiar el carrito
         carrito = [];

@@ -57,12 +57,10 @@ document.addEventListener("DOMContentLoaded", () => {
         location.reload()
       }, 5000);     
     })
-
     // Agrega el mensaje y el botón de logout al elemento con id 'userLogin' en el documento
     userLogin.appendChild(p)
     userLogin.appendChild(close)
   }
-
   // Generar las tarjetas de productos en la interfaz
   generarCardsProductos(productosDisponibles)
 })

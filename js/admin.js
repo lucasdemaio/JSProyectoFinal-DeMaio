@@ -11,5 +11,4 @@ export const eliminarProducto = (id) => {
     localStorage.setItem("productos", JSON.stringify(productosDisponibles))
     // Generar y mostrar las tarjetas de productos actualizadas en la interfaz
     generarCardsProductos(JSON.parse(localStorage.getItem("productos")))
-    
 }

@@ -39,6 +39,3 @@ fetch(urlSucursales)
         </div>`;
     document.body.append(div);
   });
-
-   
-

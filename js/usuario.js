@@ -49,10 +49,10 @@ const validarLogin = (user, pass) => {
         setTimeout(() => {
             sessionStorage.setItem("usuario", JSON.stringify(usuario))
             location.href = "../index.html"
-        }, 3000);
-        
+        }, 3000);        
     }    
 }
+
 // Evento click del botón de registro para crear un nuevo usuario.
 btnRegistro.addEventListener("click", (e) => {
     e.preventDefault()
@@ -77,13 +77,11 @@ const Registrar = (nuevoUsuario) => {
         // Agregando el nuevo usuario a la lista, actualizando el almacenamiento y redireccionando.
         usuarios.push(nuevoUsuario);
         localStorage.setItem("usuarios", JSON.stringify(usuarios));
-
         Swal.fire({
             title: "Registrado correctamente",
             text: `Gracias ${nuevoUsuario.user} por registrarse!`,
             icon: "success"
         });
-
         // Esperar 3 segundos antes de redirigir al usuario al index.html
         setTimeout(() => {
             sessionStorage.setItem("usuario", JSON.stringify(nuevoUsuario));
@@ -91,7 +89,6 @@ const Registrar = (nuevoUsuario) => {
         }, 3000);
     }else{
         // Mensaje de alerta en caso de que el usuario ya exista.
-
         Swal.fire({
             title: "Usuario existente",
             text: "Ya existe alguien registrado con el mismo usuario!",
