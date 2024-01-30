@@ -4,6 +4,10 @@ Autor: Lucas De Maio
 
 El sitio es acerca de un e-commerce de comida rapida (hamburguesas, snacks, postres, etc)
 
+usuario para testear login:
+user: admin
+Password: coder1234
+
 # Checklist de puntos realizados para cumplir con la entrega del Proyecto final:
 
 1. Objetos y Arrays. Métodos de Arrays - OK
