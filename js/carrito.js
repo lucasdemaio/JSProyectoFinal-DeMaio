@@ -236,16 +236,21 @@ const actualizarContadorCarrito = () => {
 };
 
 const Comprar = () => {
-    Swal.fire({
-      icon: 'success',
-      title: 'Compra realizada con éxito',
-      text: 'Gracias por tu compra. ¡Disfruta de tus productos!',
-    });
-    // Limpiar el carrito
-    carrito = [];
     
-    // Actualizar la interfaz del carrito
-    actualizarInterfazCarrito();
+    Swal.fire({
+        icon: 'success',
+        title: 'Compra realizada con éxito',
+        text: 'Gracias por tu compra. ¡Disfruta de tus productos!',
+    });
+      
+    setTimeout(() => {
+        // Limpiar el carrito
+        carrito = [];
+        sessionStorage.removeItem('carrito');    
+        // Actualizar la interfaz del carrito
+        actualizarInterfazCarrito();
+        location.reload();
+    }, 4000);
 };
 
 const actualizarInterfazCarrito = () => {
